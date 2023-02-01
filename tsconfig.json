@@ -29,7 +29,11 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "exclude": [".next", "node_modules", "tailwind.config.js", "postcss.config.js"],
   "include": [".next/types/**/*.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx"]
