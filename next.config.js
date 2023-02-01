@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
+    appDir: true
   },
   images: {
-    domains: ["flowbite.com"],
+    domains: ['flowbite.com']
   },
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: true
 };
 
 module.exports = nextConfig;

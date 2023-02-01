@@ -3,11 +3,11 @@
  */
 module.exports = {
   content: [
-    "./node_modules/flowbite/**/*.js",
-    "./node_modules/flowbite-react/**/*.js",
-    "./public/**/*.html",
-    "./app/**/*.{ts,tsx}",
+    './node_modules/flowbite/**/*.js',
+    './node_modules/flowbite-react/**/*.js',
+    './public/**/*.html',
+    './app/**/*.{ts,tsx}'
   ],
-  plugins: [require("flowbite/plugin")],
-  theme: {},
+  plugins: [require('flowbite/plugin')],
+  theme: {}
 };
